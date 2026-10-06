@@ -2036,26 +2036,6 @@ ${itemsText}
           </aside>
         )}
 
-        {/* NATIVE FLOATING WHATSAPP BUTTON (+51 970 380 415) */}
-        {!isCartOpen && totalCartItems === 0 && !showCheckoutModal && (
-          <aside className="fixed bottom-18 right-4 z-35">
-            <a
-              href="https://api.whatsapp.com/send?phone=51970380415&text=Hola%20Pekas%20Fit,%20quisiera%20hacer%20un%20pedido%20o%20consultar%20su%20catálogo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-[#25D366] hover:bg-[#20ba59] active:scale-95 text-white py-2.5 px-3.5 rounded-full shadow-2xl shadow-[#25D366]/40 transition-all border-2 border-white/80 dark:border-[#142617] cursor-pointer"
-              title="Chat oficial por WhatsApp: +51 970 380 415"
-              aria-label="Contactar a WhatsApp +51 970 380 415"
-            >
-              <MessageCircle className="w-5 h-5 fill-white text-[#25D366]" />
-              <div className="flex flex-col text-left leading-none">
-                <span className="text-[10px] font-bold text-[#e4faea]">WhatsApp</span>
-                <span className="text-xs font-black tracking-tight">+51 970 380 415</span>
-              </div>
-            </a>
-          </aside>
-        )}
-
         {/* NATIVE BOTTOM NAVIGATION BAR (Fixed at bottom with safe area support) */}
         <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-[#121812]/95 backdrop-blur-md border-t border-[#ede5d4] dark:border-[#1d261c] shadow-lg">
           <div className="max-w-lg md:max-w-xl mx-auto flex justify-around items-center py-2 px-2 pb-[max(0.5rem,env(safe-area-inset-bottom))]">
