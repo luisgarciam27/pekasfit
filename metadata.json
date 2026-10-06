@@ -1,0 +1,6 @@
+{
+  "name": "Pekas Fit Delivery",
+  "description": "Catálogo virtual y delivery estilo Rappi y PedidosYa especializado en frutos secos, mantequillas naturales, frutas deshidratadas y Fit Boxes personalizados de Pekas Fit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
